@@ -1,0 +1,10 @@
+:root {
+  font-family: 'Helvetica Neue', 'Luxi Sans', 'DejaVu Sans', Tahoma, 'Hiragino Sans GB', 'Microsoft YaHei';
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  --jkl-primary-color: #1890ff;
+  --jkl-primary-color-hover: #40a9ff;
+  --jkl-primary-color-outline: #1890ff33;
+  --jkl-error-color: #ff4d4f;
+  --jkl-error-color-hover: #ff7875;
+}

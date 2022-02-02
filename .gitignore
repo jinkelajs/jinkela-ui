@@ -1,0 +1,13 @@
+node_modules
+.*
+!.travis.yml
+!.gitignore
+!.babelrc
+!.prettierignore
+!.prettierrc
+!.github
+
+dist/*
+!dist/index.css
+
+coverage

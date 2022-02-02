@@ -1,0 +1,131 @@
+body {
+  margin: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+aside {
+  position: absolute;
+  left: var(--side-padding);
+  top: 0;
+  width: 260px;
+}
+
+aside ul {
+  line-height: 1.8em;
+  list-style: none;
+  padding: 0;
+  color: #666;
+}
+
+aside ul ul {
+  padding-left: 1em;
+  font-size: 13px;
+}
+
+aside li.active {
+  font-weight: bold;
+}
+
+aside li.visiting::after {
+  content: '👁';
+}
+
+article dl {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+  transition: all 0.2s;
+  overflow: hidden;
+}
+
+article dd {
+  margin: 0;
+  padding: 20px;
+}
+
+article dt {
+  padding: 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+article pre {
+  margin: 0;
+  padding: 1em;
+  position: relative;
+  border-radius: 6px;
+}
+
+article pre,
+article code {
+  font-family: 'Roboto Mono', Monaco, courier, monospace;
+  font-size: 12px;
+  line-height: 1.6;
+  -webkit-font-smoothing: initial;
+}
+
+article {
+  /* padding-top: 2.2em; */
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.6em;
+  color: #666;
+}
+
+article a {
+  text-decoration: underline;
+}
+
+article h1 {
+  margin: 1.5em 0 0.3em;
+  padding: 0 0 1.2em;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+article h2 {
+  margin: 2.5em 0 0.7em;
+  padding: 0 0 0.5em;
+  position: relative;
+  color: #333;
+}
+
+article h3 {
+  margin: 2.5em 0 0.7em;
+  padding: 0 0 0.5em;
+  position: relative;
+  color: #333;
+}
+
+article [id]::before {
+  content: '';
+  display: block;
+  height: 10px;
+  margin-top: -10px;
+}
+
+article img {
+  margin: 1em 0;
+  max-width: 100%;
+}
+
+article table {
+  border-collapse: collapse;
+}
+
+article tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+article td,
+article th {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}

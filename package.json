@@ -1,0 +1,35 @@
+{
+  "name": "jinkela-ui",
+  "license": "MIT",
+  "version": "2.0.0-dev1",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "start": "rollup -c -w",
+    "build": "rollup -c -m",
+    "test": "jest --coverage",
+    "prettier": "prettier --write \"**/*.{js,ts,md,json,css,html}\""
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.0",
+    "prettier": "^2.5.1",
+    "rollup": "^2.67.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "ts-jest": "^27.1.3",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  },
+  "peerDependencies": {
+    "jinkela": "^2.0.0-beta2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinkelajs/jinkela-ui"
+  }
+}
